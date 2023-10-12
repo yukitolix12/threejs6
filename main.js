@@ -29,3 +29,7 @@ const material = new THREE.MeshNormalMaterial();
 //ライト
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
 scene.add(ambientLight);
+
+//マウス操作
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
