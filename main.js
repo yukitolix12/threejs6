@@ -41,6 +41,8 @@ controls.enableDamping = true;
 
 window.addEventListener("resize", onWindowResize);
 
+const clock = new THREE.Clock();
+
 function animate() {
     const elapsedTime = clock.getElapsedTime();
 
