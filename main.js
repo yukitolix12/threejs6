@@ -36,4 +36,7 @@ controls.enableDamping = true;
 
 function animate() {
     const elapsedTime = clock.getElapsedTime();
+
+
+    controls.update();
 }
