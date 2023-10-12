@@ -37,6 +37,20 @@ controls.enableDamping = true;
 function animate() {
     const elapsedTime = clock.getElapsedTime();
 
+    // console.log(elapsedTime);
+
+  //オブジェクトの回転
+  // sphere.rotation.x = elapsedTime;
+  // plane.rotation.x = elapsedTime;
+  // octahedron.rotation.x = elapsedTime;
+  // torus.rotation.x = elapsedTime;
+
+  // sphere.rotation.y = elapsedTime;
+  // plane.rotation.y = elapsedTime;
+  // octahedron.rotation.y = elapsedTime;
+
+  // torus.rotation.y = elapsedTime;
+
 
     controls.update();
 
