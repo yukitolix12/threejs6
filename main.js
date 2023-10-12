@@ -25,3 +25,6 @@ document.body.appendChild(renderer.domElement);
 
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
+
+//ライト
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
