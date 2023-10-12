@@ -29,6 +29,7 @@ const material = new THREE.MeshNormalMaterial();
 
 //メッシュ化
 const box = new THREE.Mesh(boxGeometry, material);
+scene.add(box);
 
 //ライト
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
@@ -37,6 +38,8 @@ scene.add(ambientLight);
 //マウス操作
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
+
+window.addEventListener("resize", onWindowResize);
 
 function animate() {
     const elapsedTime = clock.getElapsedTime();
