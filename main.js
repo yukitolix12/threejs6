@@ -33,3 +33,7 @@ scene.add(ambientLight);
 //マウス操作
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
+
+function animate() {
+    
+}
