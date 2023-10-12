@@ -39,4 +39,7 @@ function animate() {
 
 
     controls.update();
+
+    //レンダリング
+    renderer.render(scene, camera);
 }
