@@ -35,6 +35,7 @@ material.wireframe = true;
 const box = new THREE.Mesh(boxGeometry, material);
 const sphere = new THREE.Mesh(sphereGeometry, material);
 const torus = new THREE.Mesh(torusGeometry, material);
+const plane = new THREE.Mesh(planeGeometry, material);
 
 //position
 sphere.position.x = 1.5;
