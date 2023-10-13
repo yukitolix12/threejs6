@@ -41,7 +41,7 @@ const plane = new THREE.Mesh(planeGeometry, material);
 sphere.position.x = 1.5;
 torus.position.x = -1.5;
 
-scene.add(box, sphere, torus);
+scene.add(box, sphere, torus, plane);
 
 //ライト
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
