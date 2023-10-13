@@ -25,7 +25,7 @@ document.body.appendChild(renderer.domElement);
 const boxGeometry = new THREE.BoxGeometry();
 
 //マテリアル
-const material = new THREE.MeshNormalMaterial();
+const material = new THREE.MeshNormalMaterial(2, 2, 2);
 
 //メッシュ化
 const box = new THREE.Mesh(boxGeometry, material);
