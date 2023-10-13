@@ -24,6 +24,7 @@ document.body.appendChild(renderer.domElement);
  **/
 const boxGeometry = new THREE.BoxGeometry(1, 1, 1);
 const sphereGeometry = new THREE.SphereGeometry(0.5, 16, 32);
+const geometry =new THREE.TorusGeometry();
 
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
