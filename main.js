@@ -22,10 +22,11 @@ document.body.appendChild(renderer.domElement);
 /**
  * ジオメトリを作ってみよう
  **/
-const boxGeometry = new THREE.BoxGeometry();
+const boxGeometry = new THREE.BoxGeometry(2, 2, 2);
 
 //マテリアル
-const material = new THREE.MeshNormalMaterial(2, 2, 2);
+const material = new THREE.MeshNormalMaterial();
+material.wireframe = true;
 
 //メッシュ化
 const box = new THREE.Mesh(boxGeometry, material);
