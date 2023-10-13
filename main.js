@@ -27,10 +27,11 @@ const sphereGeometry = new THREE.SphereGeometry();
 
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
-//material.wireframe = true;
+material.wireframe = true;
 
 //メッシュ化
 const box = new THREE.Mesh(boxGeometry, material);
+const sphere = new THREE.Mesh(sphereGeometry, material);
 scene.add(box);
 
 //ライト
