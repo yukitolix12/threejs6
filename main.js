@@ -38,7 +38,7 @@ const torus = new THREE.Mesh(torusGeometry, material);
 //position
 sphere.position.x = 1.5;
 
-scene.add(box, sphere);
+scene.add(box, sphere, torus);
 
 //ライト
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
