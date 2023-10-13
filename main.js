@@ -32,7 +32,7 @@ material.wireframe = true;
 //メッシュ化
 const box = new THREE.Mesh(boxGeometry, material);
 const sphere = new THREE.Mesh(sphereGeometry, material);
-scene.add(box);
+scene.add(box, sphere);
 
 //ライト
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
