@@ -40,6 +40,7 @@ const plane = new THREE.Mesh(planeGeometry, material);
 //position
 sphere.position.x = 1.5;
 torus.position.x = -1.5;
+plane.position.x = -3;
 
 scene.add(box, sphere, torus, plane);
 
