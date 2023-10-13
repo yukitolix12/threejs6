@@ -29,7 +29,7 @@ const planeGeometry = new THREE.PlaneGeometry(10, 10);
 
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
-material.wireframe = true;
+//material.wireframe = true;
 
 //メッシュ化
 const box = new THREE.Mesh(boxGeometry, material);
