@@ -46,6 +46,8 @@ positionArray[8] = 1;
 
 console.log(positionArray);
 
+const positionAttribute = new THREE.BufferAttribute();
+
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
 //material.wireframe = true;
