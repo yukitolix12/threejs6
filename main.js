@@ -60,6 +60,8 @@ const sphere = new THREE.Mesh(sphereGeometry, material);
 const torus = new THREE.Mesh(torusGeometry, material);
 const plane = new THREE.Mesh(planeGeometry, material);
 
+const buffer = new THREE.Mesh(geometry, material);
+
 //position
 sphere.position.x = 1.5;
 torus.position.x = -1.5;
