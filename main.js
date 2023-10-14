@@ -52,7 +52,7 @@ geometry.setAttribute("position", positionAttribute);
 
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
-//material.wireframe = true;
+material.wireframe = true;
 
 //メッシュ化
 const box = new THREE.Mesh(boxGeometry, material);
