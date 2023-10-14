@@ -27,6 +27,9 @@ const sphereGeometry = new THREE.SphereGeometry(0.5, 16, 32);
 const torusGeometry = new THREE.TorusGeometry(0.5, 0.2, 16, 100, Math.PI * 2);
 const planeGeometry = new THREE.PlaneGeometry(10, 10);
 
+//バッファジオメトリを作成してみよう
+const geometry = new THREE.BufferGeometry();
+
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
 //material.wireframe = true;
