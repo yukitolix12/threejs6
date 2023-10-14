@@ -69,6 +69,7 @@ plane.position.y = -0.5;
 plane.rotation.x = -Math.PI * 0.5;
 
 //scene.add(box, sphere, torus, plane);
+scene.add(buffer);
 
 //ライト
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
