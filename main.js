@@ -40,10 +40,10 @@ const plane = new THREE.Mesh(planeGeometry, material);
 //position
 sphere.position.x = 1.5;
 torus.position.x = -1.5;
-plane.position.y = -1.5;
+plane.position.y = -0.5;
 plane.rotation.x = -Math.PI * 0.5;
 
-scene.add(box, sphere, torus, plane);
+//scene.add(box, sphere, torus, plane);
 
 //ライト
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
