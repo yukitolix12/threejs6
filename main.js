@@ -30,7 +30,19 @@ const planeGeometry = new THREE.PlaneGeometry(10, 10);
 //バッファジオメトリを作成してみよう
 const geometry = new THREE.BufferGeometry();
 
-const positionArray = new Float32Array();
+const positionArray = new Float32Array(9);
+
+positionArray[0] = 0;
+positionArray[1] = 0;
+positionArray[2] = 0;
+
+positionArray[3] = 0;
+positionArray[4] = 0;
+positionArray[5] = 1;
+
+positionArray[6] = 0;
+positionArray[7] = 0;
+positionArray[8] = 1;
 
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
