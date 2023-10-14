@@ -37,12 +37,12 @@ positionArray[1] = 0;
 positionArray[2] = 0;
 
 positionArray[3] = 0;
-positionArray[4] = 0;
-positionArray[5] = 1;
+positionArray[4] = 1;
+positionArray[5] = 0;
 
-positionArray[6] = 0;
+positionArray[6] = 1;
 positionArray[7] = 0;
-positionArray[8] = 1;
+positionArray[8] = 0;
 
 console.log(positionArray);
 
