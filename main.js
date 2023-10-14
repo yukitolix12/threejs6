@@ -44,6 +44,8 @@ positionArray[6] = 0;
 positionArray[7] = 0;
 positionArray[8] = 1;
 
+console.log(positionArray);
+
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
 //material.wireframe = true;
