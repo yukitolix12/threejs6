@@ -48,6 +48,8 @@ console.log(positionArray);
 
 const positionAttribute = new THREE.BufferAttribute(positionArray, 3);
 
+geometry.setAttribute("position", positionAttribute);
+
 //マテリアル
 const material = new THREE.MeshNormalMaterial();
 //material.wireframe = true;
